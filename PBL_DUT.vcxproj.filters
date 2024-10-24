@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Medical_department">
+      <UniqueIdentifier>{82fc11b6-b461-4790-b5ee-274a1a29a4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structure">
+      <UniqueIdentifier>{5a8719a3-9cae-4ce2-97e7-3c6ad741f4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{053b3158-7c21-40e3-83b8-e090bd7ec62c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{f4dde73d-ada7-4ab9-9e2d-0de8ee2bdfc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page">
+      <UniqueIdentifier>{a57bb517-5c11-4fdd-a239-ac18ac26ddd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Management">
+      <UniqueIdentifier>{001df835-8b2c-496a-9110-5b3daeca25de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{8e1fd5c5-1f9c-4e7e-a8ea-ceb0abd6e43e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="User.cpp">
+      <Filter>Medical_department</Filter>
+    </ClCompile>
+    <ClCompile Include="Patient.cpp">
+      <Filter>Medical_department</Filter>
+    </ClCompile>
+    <ClCompile Include="Doctor.cpp">
+      <Filter>Medical_department</Filter>
+    </ClCompile>
+    <ClCompile Include="Clinic_Room.cpp">
+      <Filter>Medical_department</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Medical_department</Filter>
+    </ClCompile>
+    <ClCompile Include="Appointment.cpp">
+      <Filter>Medical_department</Filter>
+    </ClCompile>
+    <ClCompile Include="Linked_List.cpp">
+      <Filter>Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientMenu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="DoctorMenu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Home.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>Management</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManagement.cpp">
+      <Filter>Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Schedule.cpp">
+      <Filter>Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Authentication.cpp">
+      <Filter>Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Patients_info.txt">
+      <Filter>Database</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="User.h">
+      <Filter>Medical_department</Filter>
+    </ClInclude>
+    <ClInclude Include="Patient.h">
+      <Filter>Medical_department</Filter>
+    </ClInclude>
+    <ClInclude Include="Doctor.h">
+      <Filter>Medical_department</Filter>
+    </ClInclude>
+    <ClInclude Include="Clinic_Room.h">
+      <Filter>Medical_department</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Medical_department</Filter>
+    </ClInclude>
+    <ClInclude Include="Appointment.h">
+      <Filter>Medical_department</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Menubox.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>Management</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManagement.h">
+      <Filter>Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Schedule.h">
+      <Filter>Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Authentication.h">
+      <Filter>Management</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Welcome.txt">
+      <Filter>Page</Filter>
+    </Text>
+    <Text Include="Doctor.txt">
+      <Filter>Page</Filter>
+    </Text>
+    <Text Include="Patient.txt">
+      <Filter>Page</Filter>
+    </Text>
+    <Text Include="Appointments_info.txt">
+      <Filter>Database</Filter>
+    </Text>
+    <Text Include="Doctors_info.txt">
+      <Filter>Database</Filter>
+    </Text>
+    <Text Include="Clinics_info.txt">
+      <Filter>Database</Filter>
+    </Text>
+    <Text Include="Patient_login.txt">
+      <Filter>Page</Filter>
+    </Text>
+    <Text Include="Patient_Function.txt">
+      <Filter>Page</Filter>
+    </Text>
+    <Text Include="Patient_SignUp.txt">
+      <Filter>Page</Filter>
+    </Text>
+    <Text Include="Doctor_login.txt">
+      <Filter>Page</Filter>
+    </Text>
+    <Text Include="Doctor_Function.txt">
+      <Filter>Page</Filter>
+    </Text>
+    <Text Include="MainPage.txt">
+      <Filter>Page</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

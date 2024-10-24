@@ -1,0 +1,2 @@
+100|Dr. Alice Brown|1978-04-22|Female|789 Pine St|555-1122|dralice|alicepwd|Dermatology
+101|Dr. Bob White|1983-11-10|Male|123 Oak St|555-3344|drbob|bobpwd|Cardiology

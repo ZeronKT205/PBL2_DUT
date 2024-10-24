@@ -1,0 +1,2 @@
+3001|Consultation Room|Available
+3002|Surgery Room|Booked

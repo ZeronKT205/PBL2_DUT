@@ -1,0 +1,2 @@
+1|2001|100|3001|2024-12-01|09:00|Dr. Alice Brown|Eve Green|Consultation Room|Scheduled
+2|2002|101|3002|2024-12-01|10:00|Dr. Bob White|John Black|Surgery Room|Scheduled
