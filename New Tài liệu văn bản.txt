@@ -1,0 +1,8 @@
+# Ignore build files
+x64/
+*.obj
+*.exe
+*.log
+*.pdb
+*.tlog
+*.lastbuildstate
